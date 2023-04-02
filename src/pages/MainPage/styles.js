@@ -6,13 +6,13 @@ export const MainSpace = styled.main`
   background-color: var(--color-grey-ex-1);
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 
   @media screen and (min-width: 480px) {
   }
   @media screen and (min-width: 768px) {
-    height: 100vh;
+    height: 170vh;
   }
   @media screen and (min-width: 1024px) {
   }
@@ -20,4 +20,10 @@ export const MainSpace = styled.main`
   }
   @media screen and (max-width: 1920px) {
   }
+`;
+
+export const QrCodeSpace = styled.section`
+  width: 900px;
+  height: 50vh;
+  background-color: royalblue;
 `;
